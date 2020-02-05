@@ -10,7 +10,7 @@
     background-image: url('./assets/foto.jpg');
     background-size: 300px;
     background-repeat: no-repeat;
-    background-position: 0 0;
+    background-position: 0 -52px;
     border-radius: 100%;
     margin-left: 60px;
 }
