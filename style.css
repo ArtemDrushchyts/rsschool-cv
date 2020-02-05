@@ -3,7 +3,6 @@
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
-
 .header__foto {
     width: 300px;
     height: 300px;  
@@ -19,7 +18,8 @@ header {
     width: 1024px;
     height: 320px;
     margin: 0 auto;
-    background-color: rgb(134, 235, 205);
+    background: rgba(111,180,192,1);
+    background: linear-gradient(to bottom, rgba(111,180,192,1) 0%, rgba(111,180,192,1) 20%, rgba(147,223,200,1) 86%, rgba(147,223,200,1) 100%)
 }
 h1 {
     visibility: hidden;
@@ -31,13 +31,17 @@ h2 {
     margin-top: 30px;
     font-size: 36px;
 }
+h3 {
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
 h4 {
     margin-top: 20px;
     text-align: center;
 }
 .contacts__info {
     list-style-type: none;
-    margin-top: 35px;
+    margin-top: 50px;
 }
 li {
     margin-top: 15px;
@@ -46,7 +50,7 @@ li {
     display: inline-block;
     vertical-align: top;
     margin-left: 120px;
-
+    
 }
 .contact__link i {
     margin-right: 15px;
@@ -61,10 +65,32 @@ li {
 }
 main {
     width: 1024px;
-    margin: 0 auto; 
+    margin: 0 auto;
+    background: linear-gradient(to bottom, rgba(147,223,200,1) 0%, rgba(147,223,200,1) 73%, rgba(111,180,192,1) 100%);; 
+}
+.summary {
+    padding-top: 30px;
+}
+.skills,
+.experience,
+.education,
+.summary {
+    margin-left: 40px;
+}
+.skills ul {
+    margin-left: 50px;
+}
+.experience ul {
+    margin-left: 70px;
+}
+.experience p {
+    margin-top: 10px;
 }
 .summary__text {
-    width: 800px;
-    margin: 0 auto;
-    margin-top: 30px;
-} 
+    width: 700px;
+    margin-left: 30px;
+    
+}
+.education p {
+    margin-top: 10px;
+}
