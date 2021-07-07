@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.header__foto {
+    width: 300px;
+    height: 300px;  
+    display: inline-block;
+    background-image: url('./assets/foto.jpg');
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: 0 -52px;
+    border-radius: 100%;
+    margin-left: 60px;
+}
+header {
+    width: 1024px;
+    height: 320px;
+    margin: 0 auto;
+    background: rgba(111,180,192,1);
+    background: linear-gradient(to bottom, rgba(111,180,192,1) 0%, rgba(111,180,192,1) 20%, rgba(147,223,200,1) 86%, rgba(147,223,200,1) 100%)
+}
+h1 {
+    visibility: hidden;
+    position: absolute;
+    height: 1px;
+    width: 1px;  
+}
+h2 {
+    margin-top: 30px;
+    font-size: 36px;
+}
+h3 {
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+h4 {
+    margin-top: 20px;
+    text-align: center;
+}
+.contacts__info {
+    list-style-type: none;
+    margin-top: 50px;
+}
+li {
+    margin-top: 15px;
+}
+.contacts {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 120px;
+    
+}
+.contact__link i {
+    margin-right: 15px;
+}
+.contact__link {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.contact__link:hover {
+    color: rgb(46, 134, 134);
+}
+main {
+    width: 1024px;
+    margin: 0 auto;
+    background: linear-gradient(to bottom, rgba(147,223,200,1) 0%, rgba(147,223,200,1) 73%, rgba(111,180,192,1) 100%);; 
+}
+.summary {
+    padding-top: 30px;
+}
+.skills,
+.experience,
+.education,
+.summary {
+    margin-left: 40px;
+}
+.skills ul {
+    margin-left: 35px;
+}
+.skill__tool {
+    list-style-type: none;
+}
+.experience ul {
+    margin-left: 70px;
+}
+.experience p {
+    margin-top: 10px;
+}
+.summary__text {
+    width: 700px;
+    margin-left: 30px;
+    
+}
+.education p {
+    margin-top: 10px;
+}
+
+@media (max-width: 1024px) {
+    main, header {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (max-width: 820px) {
+    .summary__text {
+        width: 100%;
+        margin-left: 0;
+    }
+    .header__foto {
+        display: block;
+        margin: 0 auto;
+    }
+    .contacts {
+        display: block;
+        margin: 0 auto;
+    }
+    .contacts__info, h2 {
+        text-align: center;
+    }
+    .header__foto {
+        width: 200px;
+        height: 200px;
+        background-size: 200px;
+    }
+} 
